@@ -134,10 +134,6 @@ body {
     border-radius: 20px;
 }
 
-.all-content {
-    width: 450px;
-}
-
 .sign-title {
     margin: 0;
     margin-bottom: 79px;
@@ -147,12 +143,11 @@ body {
     color: #000000;
 }
 
-form{
-    width: 100%;
-}
+
 
 .user-input {
-    width: 100%;
+    display: block;
+    width: 450px;
     margin-bottom: 35px;
     padding-bottom: 11px;
     border: none;
@@ -182,7 +177,7 @@ form{
 }
 
 .submit {
-    width: 100%;
+    width: 450px;
     margin-bottom: 8px;
     padding: 20px 146px;
     font-weight: 600;
