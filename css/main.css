@@ -134,6 +134,10 @@ body {
     border-radius: 20px;
 }
 
+.all-content{
+    width: 450px;
+}
+
 .sign-title {
     margin: 0;
     margin-bottom: 79px;
@@ -147,7 +151,7 @@ body {
 
 .user-input {
     display: block;
-    width: 450px;
+    width: 99%;
     margin-bottom: 35px;
     padding-bottom: 11px;
     border: none;
@@ -158,6 +162,8 @@ body {
     line-height: 19px;
     color: #555555;
 }
+
+
 
 .name {
     font-weight: 600;
