@@ -128,13 +128,14 @@ body {
 /* Left */
 
 .left-box {
-    width: 570px;
+    width: 510px;
+    padding: 55px 0px 45px 60px;
     background: #FFFFFF;
     border-radius: 20px;
 }
 
 .all-content {
-    padding: 55px 82px 45px 40px;
+    width: 450px;
 }
 
 .sign-title {
@@ -144,6 +145,10 @@ body {
     font-size: 32px;
     line-height: 42px;
     color: #000000;
+}
+
+form{
+    width: 100%;
 }
 
 .user-input {
