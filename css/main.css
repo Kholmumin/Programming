@@ -148,7 +148,6 @@ body {
 }
 
 
-
 .user-input {
     display: block;
     width: 99%;
@@ -157,22 +156,13 @@ body {
     border: none;
     border-bottom: 1px solid #000000;
     outline: none;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #555555;
-}
-
-
-
-.name {
     font-weight: 600;
     font-size: 18px;
-    line-height: 22px;
-    color: #000000;
+    line-height: 19px;
+    color: #000;
 }
 
-.name::placeholder{
+.user-input::placeholder{
     width: 100%;
     margin-bottom: 35px;
     padding-bottom: 11px;
