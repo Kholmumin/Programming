@@ -7,9 +7,9 @@ html {
     font-style: normal;
     font-weight: 400;
     src: local(''),
-        url('../fonts/inter-v11-latin-regular.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('../fonts/inter-v11-latin-regular.woff') format('woff');
+    url('../fonts/inter-v11-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/inter-v11-latin-regular.woff') format('woff');
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -19,9 +19,9 @@ html {
     font-style: normal;
     font-weight: 600;
     src: local(''),
-        url('../fonts/inter-v11-latin-600.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('../fonts/inter-v11-latin-600.woff') format('woff');
+    url('../fonts/inter-v11-latin-600.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/inter-v11-latin-600.woff') format('woff');
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -31,9 +31,9 @@ html {
     font-style: normal;
     font-weight: 700;
     src: local(''),
-        url('../fonts/inter-v11-latin-700.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('../fonts/inter-v11-latin-700.woff') format('woff');
+    url('../fonts/inter-v11-latin-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/inter-v11-latin-700.woff') format('woff');
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -114,7 +114,7 @@ body {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     text-align: center;
-
+    
 }
 
 .discount-link {
@@ -151,7 +151,7 @@ body {
 .user-input {
     display: block;
     width: 99%;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
     padding-bottom: 11px;
     border: none;
     border-bottom: 1px solid #000000;
@@ -170,6 +170,39 @@ body {
     font-size: 16px;
     line-height: 19px;
     color: #555555;
+}
+
+.user-input:not(:placeholder-shown):not(focus):invalid{
+    border-bottom-color: #f03535 ;
+}
+
+.user-input:not(:placeholder-shown):not(focus):invalid ~ span{
+    opacity: 1; 
+}
+
+
+.user:invalid:placeholder-shown{
+    color: #f03535;
+}
+
+.empty-text{
+    display: block;
+    opacity: 0;
+    text-align: right;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: right;
+    color: #F03535;
+}
+
+.last-empty{
+    margin-bottom: 12px;
+}
+
+
+input:empty .empty-text{
+    opacity: 1;
 }
 
 .submit {
